@@ -1,5 +1,5 @@
 {
-    "name": "dpods/date-array",
+    "name": "dpods/php-date-arrays",
     "description": "Lightweight PHP helper methods to create arrays for dates",
     "type": "library",
     "license": "MIT",
