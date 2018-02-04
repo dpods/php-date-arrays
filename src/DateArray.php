@@ -23,7 +23,7 @@ class DateArray
     public static function indexed($from, $to, $step = '+1 day', $outputFormat = 'Y-m-d') {
         $dates = array();
         $current = strtotime($from);
-        $last = strtotime($step);
+        $last = strtotime($to);
 
         while($current <= $last) {
             $dates[] = date($outputFormat, $current);
