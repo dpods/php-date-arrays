@@ -1,4 +1,4 @@
-# PHP Data Arrays
+# PHP Date Arrays
 A lightweight library that provides useful functions for generating arrays with dates
 
 ### Installation
