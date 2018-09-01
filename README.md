@@ -8,7 +8,7 @@ A lightweight library that provides useful functions for generating arrays with 
 ### Examples
 
 Generate an array of dates
-    
+```    
     $dates = Dpods\DateArray::indexed("2014-01-01", "2014-01-20", "+1 day", "m/d/Y");
 
     print_r($dates);
@@ -35,10 +35,10 @@ Generate an array of dates
      "01/19/2014",
      "01/20/2014",
    ]
-    
+``` 
      
 You can even use time
-
+```
     $hours = Dpods\DateArray::indexed("01:00:00", "23:00:00", "+1 hour", "H:i:s");
 
     print_r($hours);
@@ -68,9 +68,10 @@ You can even use time
      "22:00:00",
      "23:00:00",
    ]
+```
 
 Generate an associative array:
-
+```
     $dates = Dpods\DateArray::assoc("2014-01-01", "2014-01-20", 0, "+1 day", "m/d/Y");
 
     print_r($dates);
@@ -97,3 +98,4 @@ Generate an associative array:
      "01/19/2014" => 0,
      "01/20/2014" => 0,
    ]
+```
